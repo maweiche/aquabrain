@@ -11,7 +11,7 @@ const Data = () => {
     const [data, setData] = useState([]);
     const fetchEvents = async () => {
         const { data } = await axios.get(
-          'https://api.init.st/data/v1/events/latest?accessKey=ist_CsfUMjskTuo0o7UEoW-D7tjPb68ZwQru&bucketKey=4WV9PEU4G6K4'
+          'https://api.init.st/data/v1/events/latest?accessKey=ist_6e6lvyD--6Gm7Z6FJri4PZ4q-_pC7t4V&bucketKey=WQD6H7XVNKXE'
         );
         console.log(typeof data)
         console.log(data)
